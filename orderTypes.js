@@ -5,3 +5,5 @@ const ORDER_TYPES = {
 }
 
 module.exports = ORDER_TYPES;
+// This type of object is commonly referred to as an Enumeration.
+//As with any pre-defined constant, it's common to use UPPER_SNAKE_CASE for enumerations in JavaScript.
