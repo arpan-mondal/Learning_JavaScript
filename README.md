@@ -28,8 +28,8 @@ Phew!
 
 Don't worry if some of that was confusing! It's enough to introduce these concepts for now. We'll dive into further detail in future lessons. We will explore JavaScript syntax one step at a time by writing programs in the coming lessons.
 
-JavaScript Functions & Operators
-Hey there! In this code tutorial we're going to learn about JavaScript functions.
+# JavaScript Functions & Operators
+Hey there!  we're going to learn about JavaScript functions.
 
 What is a function?
 A function is re-usable code! With a function you can plug in different inputs and receive outputs based on the input.
