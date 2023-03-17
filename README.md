@@ -49,3 +49,73 @@ function addOne(input) {
     return input + 1;
 }
 ```
+
+Conditionals
+In programming it's often necessary to write code that depends on some condition to be true.
+
+For a good example, let's imagine we're building a website! 
+
+We want users to be sent to the dashboard only if they are logged in. Otherwise we should send them to the login page:
+
+```
+if(loggedIn) {
+    // loggedIn is true
+    goToDashboard();
+}
+else {
+    // loggedIn is false
+    goToLogin();
+}
+```
+
+You could think of this logic as: If the user is logged in, then send them to the dashboard. If not, send them to the login page.
+
+Our logic is branched based on the condition of whether or not the user is logged in. We can look at this from the perspective of a flow chart:
+
+Flow Chart
+
+
+
+# Conditionals
+In programming it's often necessary to write code that depends on some condition to be true.
+
+For a good example, let's imagine we're building a website! 
+
+We want users to be sent to the dashboard only if they are logged in. Otherwise we should send them to the login page:
+
+if(loggedIn) {
+    // loggedIn is true
+    goToDashboard();
+}
+else {
+    // loggedIn is false
+    goToLogin();
+}
+
+
+You could think of this logic as: If the user is logged in, then send them to the dashboard. If not, send them to the login page.
+
+Our logic is branched based on the condition of whether or not the user is logged in. We can look at this from the perspective of a flow chart:
+
+![image](https://user-images.githubusercontent.com/66848339/226043866-ee8dd76b-4fe2-46c3-bc83-b1841dad7b6c.png)
+
+# Loops
+Computers are super efficient at running a large number of simple tasks! As programmers we take advantage of this speed by writing programs that will repeatedly do some task until a certain condition is met.
+
+If I wanted to scan hundreds of books for a word, it would take me a long time! We can write programs to do these kind of tasks in seconds.
+
+Let's think about how we would tell a computer to read a bunch of books. 
+
+First, we can tell the computer to read each book until there are no books left. Then we can tell it to read each page in the book until there are no pages left. Then each word on the page until there are no words left... Each of these can be written in what we call loops.
+
+In pseudocode this might look a little like this:
+
+while we have books
+    read book
+    while we have pages in this book
+        read page
+            while we have words on the page
+                read word 
+In a flow chart, this may look more like this:
+![image](https://user-images.githubusercontent.com/66848339/226044385-97a0229a-1305-4a5b-99c4-d22cf292ce79.png)
+
